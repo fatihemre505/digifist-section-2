@@ -1,0 +1,748 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url(fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+    font-family: 'Catamaran';
+    src: url(fonts/Catamaran.ttf);
+}
+
+@font-face {
+    font-family: 'ITC Avant Garde Gothic Pro';
+    src: url(fonts/avgr45w.ttf);
+}
+
+
+.section {
+    position: relative;
+    width: 360px;
+    height: 754px;
+    background: #FFFFFF;
+}
+
+.section .content {
+    position: relative;
+    width: 360px;
+    height: 754px;
+    background: #FFFFFF;
+}
+
+.section .content .image {
+    position: absolute;
+    width: 360px;
+    height: 437px;
+    left: 0px;
+    top: 0px;
+}
+
+.section .content .scroll {
+    position: absolute;
+    width: 360px;
+    height: 293px;
+    left: 0px;
+    top: 397px;
+    overflow: hidden;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) {
+    position: absolute;
+    left: 95.56%;
+    right: -36.67%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .wishlist {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: 108px;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .wishlist .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .quickadd {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: 108px;
+    top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .quickadd .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .quickadd .icon i {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .producttag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px 3px;
+    gap: 10px;
+    position: absolute;
+    visibility: hidden;
+    width: 94px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+    background: #FFFFFF;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .producttag p {
+    width: 78px;
+    height: 17px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 149px;
+    height: 84px;
+    left: 0px;
+    top: 208px;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 149px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 .title .text {
+    width: 149px;
+    height: 40px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 .title .price {
+    width: 40px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 40px;
+    height: 17px;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 .swatches {
+    width: 66px;
+    height: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 .swatches span:nth-of-type(1) {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.81%;
+    right: 92.75%;
+    top: 87.14%;
+    bottom: 1.43%;
+    background: #99C3CC;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .frame23 .swatches span.active {
+    position: absolute;
+    left: 0.81%;
+    right: 92.75%;
+    top: 87.14%;
+    bottom: 1.43%;
+    width: 12px;
+    height: 12px;
+    border: 1.5px solid #000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 31.74%;
+}
+
+.section .content .scroll .product.card:nth-of-type(1) .image img {
+    width: 148px;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    z-index: 100;
+
+}
+
+.section .content .scroll .product.card:nth-of-type(2) {
+    position: absolute;
+    left: 51.11%;
+    right: 7.78%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .wishlist {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: 108px;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .wishlist .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .quickadd {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: 108px;
+    top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .quickadd .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .quickadd .icon i {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .producttag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px 3px;
+    gap: 10px;
+    position: absolute;
+    visibility: hidden;
+    width: 94px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+    background: #FFFFFF;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .producttag p {
+    width: 78px;
+    height: 17px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 149px;
+    height: 84px;
+    left: 0px;
+    top: 208px;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 149px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .title .text {
+    width: 149px;
+    height: 40px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .title .price {
+    width: 40px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 40px;
+    height: 17px;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .swatches {
+    width: 66px;
+    height: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .swatches span:nth-of-type(1) {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.81%;
+    right: 92.75%;
+    top: 87.14%;
+    bottom: 1.43%;
+    background: #99C3CC;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .swatches span:nth-of-type(2) {
+    position: absolute;
+    left: 12.08%;
+    right: 79.87%;
+    top: 85.71%;
+    bottom: 0%;
+    background: #CC9999;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .swatches span:nth-of-type(3) {
+    position: absolute;
+    left: 24.16%;
+    right: 67.79%;
+    top: 85.71%;
+    bottom: 0%;
+    background: #CB99CC;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .swatches span:nth-of-type(4) {
+    position: absolute;
+    left: 36.24%;
+    right: 55.7%;
+    top: 85.71%;
+    bottom: 0%;
+    background: #BCD9B2;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .frame23 .swatches span.active {
+    position: absolute;
+    left: 0.81%;
+    right: 92.75%;
+    top: 87.14%;
+    bottom: 1.43%;
+    width: 12px;
+    height: 12px;
+    border: 1.5px solid #000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 31.74%;
+}
+
+.section .content .scroll .product.card:nth-of-type(2) .image img {
+    width: 148px;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    z-index: 100;
+
+}
+
+.section .content .scroll .product.card:nth-of-type(3) {
+    position: absolute;
+    left: 6.67%;
+    right: 52.22%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .wishlist {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: 108px;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .wishlist .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .quickadd {
+    position: absolute;
+    visibility: hidden;
+    width: 32px;
+    height: 32px;
+    left: 108px;
+    top: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .quickadd .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .quickadd .icon i {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .producttag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px 3px;
+    gap: 10px;
+    position: absolute;
+    visibility: hidden;
+    width: 94px;
+    height: 24px;
+    left: 8px;
+    top: 8px;
+    background: #FFFFFF;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .producttag p {
+    width: 78px;
+    height: 17px;
+    font-family: 'Catamaran';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 149px;
+    height: 84px;
+    left: 0px;
+    top: 208px;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 149px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .title .text {
+    width: 149px;
+    height: 40px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .title .price {
+    width: 40px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    width: 40px;
+    height: 17px;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .swatches {
+    width: 66px;
+    height: 12px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .swatches span:nth-of-type(1) {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.81%;
+    right: 92.75%;
+    top: 87.14%;
+    bottom: 1.43%;
+    background: #99C3CC;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .swatches span:nth-of-type(2) {
+    position: absolute;
+    left: 12.08%;
+    right: 79.87%;
+    top: 85.71%;
+    bottom: 0%;
+    background: #CC9999;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .swatches span:nth-of-type(3) {
+    position: absolute;
+    left: 24.16%;
+    right: 67.79%;
+    top: 85.71%;
+    bottom: 0%;
+    border-radius: 50%;
+    background: #CB99CC;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .swatches span:nth-of-type(4) {
+    position: absolute;
+    left: 36.24%;
+    right: 55.7%;
+    top: 85.71%;
+    bottom: 0%;
+    background: #BCD9B2;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .frame23 .swatches span.active {
+    position: absolute;
+    left: 0.81%;
+    right: 92.75%;
+    top: 87.14%;
+    bottom: 1.43%;
+    width: 12px;
+    height: 12px;
+    border: 1.5px solid #000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .image {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 31.74%;
+}
+
+.section .content .scroll .product.card:nth-of-type(3) .image img {
+    width: 148px;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    z-index: 100;
+
+}
+
+.section .content .button {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 29.05%;
+    bottom: 42.04%;
+    z-index: 999;
+}
+
+.section .content .button h1 {
+    position: absolute;
+    width: 312px;
+    height: 78px;
+    left: 15px;
+    top: 20px;
+    font-family: 'ITC Avant Garde Gothic Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #fff;
+}
+
+.section .content .button a {
+    position: absolute;
+    width: 312px;
+    height: 78px;
+    left: 15px;
+    top: 123px;
+    width: 146px;
+    height: 17px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.8px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section .content .button a::before {
+    content: '';
+    display: inline-block;
+    width: 146px;
+    height: 1px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: #fff;
+
+}
